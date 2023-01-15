@@ -1,0 +1,302 @@
+/* Common Style */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button-primary {
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    padding: 21px;
+}
+
+/* Navigation Styles */
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 228px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+    color: #424242;
+}
+
+
+/* Header Styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
+/* Banner Styles */
+.banner {
+    display: grid;
+    justify-items: center;
+}
+
+.banner-text {
+    margin: 205px 229px 33px;
+}
+
+.banner-name {
+    font-size: 64px;
+    justify-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner-img {
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 0 240px 40px;
+}
+
+/* Quick List Features Styles */
+
+.quicklist-features-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+
+.features {
+    display: flex;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+
+.features-images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.quicklist-features-img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.features-description-container {
+
+    width: min-content;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature-title-hi {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313
+}
+
+.feature-sub-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feature-description {
+    margin-top: 24px;
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* Feature we do styles */
+.feature-we-do {
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.title-header {
+    display: flex;
+    gap: 5px;
+}
+
+.vertical {
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+}
+
+.we-do-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 21px;
+}
+
+.we-do-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.we-do {
+    padding: 30px 42px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.love-enjoy-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.love-enjoy-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+
+/* Some Facts Section */
+
+.some-facts {
+    display: grid;
+}
+
+.facts-heading {
+    margin-left: 240px;
+
+}
+
+.facts-descripction {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.facts-descripction {}
+
+.achivement-container {
+    display: flex;
+    margin-left: 290px;
+    margin-bottom: 180px;
+    gap: 124px;
+}
+
+.achivement {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 46px 37px 60px 37px;
+}
+
+.achivement-icon {}
+
+.achivement-rating {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 7px 0px;
+
+
+}
+
+.achivement-name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+
+/* Sponspors Styles */
+.sponspors-container {
+    display: grid;
+    text-align: center;
+
+}
+
+.sponspors {}
+
+
+.sponspors-title {}
+
+.sponspors-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 40px;
+}
+
+.sponspors-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponspors-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 155px;
+
+}
+
+
+/* Footer Style */
+.footer {
+    margin-top: 170px;
+    margin-bottom: 200px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 39px 0;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
