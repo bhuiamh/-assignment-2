@@ -375,5 +375,22 @@ nav li {
 
 }
 
-/* Responsive Styles */
-@media screen {}
+/* Media Query */
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+ nav {
+    padding: 0;
+    
+ }
+ nav ul {
+    display: none;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+}
+.banner-img{
+    display: none;
+    justify-items: center;
+}
+}
