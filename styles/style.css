@@ -4,6 +4,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* body {
+    overflow: hidden;
+} */
+
 .button-primary {
     height: 64px;
     background-color: #FF900E;
@@ -84,13 +88,15 @@ nav li {
     margin-top: 50px;
     border-radius: 10px;
     padding: 0 240px 40px;
+    width: 800px;
+    height: 450px;
 }
 
 /* Quick List Features Styles */
 
 .quicklist-features-container {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
     margin-top: 85px;
     margin-bottom: 130px;
@@ -156,6 +162,29 @@ nav li {
     margin: 130px 240px;
 }
 
+.experiance-button {
+    position: absolute;
+    left: 650px;
+    top: 3050px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    border: none;
+    padding: 21px;
+}
+
+#experi {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.architech {
+    width: 600px;
+    height: 1000px;
+}
+
 .title-header {
     display: flex;
     gap: 5px;
@@ -193,7 +222,7 @@ nav li {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .love-enjoy-title {
@@ -234,7 +263,7 @@ nav li {
     display: flex;
     margin-left: 290px;
     margin-bottom: 180px;
-    gap: 124px;
+    gap: 50px;
 }
 
 .achivement {
@@ -243,7 +272,7 @@ nav li {
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding: 46px 37px 60px 37px;
+    padding: 40px 25px 40px 25px;
 }
 
 .achivement:hover {
@@ -273,6 +302,7 @@ nav li {
     text-align: center;
 
 }
+
 .quicklink-container {
     display: grid;
     text-align: center;
@@ -296,26 +326,34 @@ nav li {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 155px;
+    gap: 50px;
 
 }
+
+.sponspors-img {
+    height: 50px;
+    width: 100px;
+}
+
 .quicklink-img-container {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 155px;
+    gap: 50px;
 
 }
-.quicklink-img{
+
+.quicklink-img {
     height: 100px;
     width: 100px;
+    margin: 50px;
 }
 
 
-.quicklink-img:hover{
-    border-radius: 20px;
-    border: solid 10px black;
-   
+.quicklink-img:hover {
+
+    border: solid 5px black;
+
 }
 
 
@@ -335,5 +373,5 @@ nav li {
     background-color: #FFF4E7;
     border-radius: 8px;
 }
-
+/* Responsive Styles */
 @media screen {}
