@@ -180,7 +180,8 @@ nav li {
 }
 
 .we-do-description {
-    font-weight: 400;
+    font-weight: 400px;
+    width: 586px;
     font-size: 16px;
     color: #727272;
     margin-top: 30px;
@@ -272,6 +273,11 @@ nav li {
     text-align: center;
 
 }
+.quicklink-container {
+    display: grid;
+    text-align: center;
+    margin-top: 300px;
+}
 
 .sponspors-header {
     font-weight: 700;
@@ -293,6 +299,25 @@ nav li {
     gap: 155px;
 
 }
+.quicklink-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 155px;
+
+}
+.quicklink-img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.quicklink-img:hover{
+    border-radius: 20px;
+    border: solid 10px black;
+   
+}
+
 
 
 /* Footer Style */
