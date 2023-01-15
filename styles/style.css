@@ -13,6 +13,13 @@
     color: #FFFFFF;
     border: none;
     padding: 21px;
+
+}
+
+.button-primary:hover {
+    background-color: #24ee09;
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 /* Navigation Styles */
@@ -146,8 +153,7 @@ nav li {
     display: flex;
     gap: 54px;
     justify-content: center;
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin: 130px 240px;
 }
 
 .title-header {
@@ -161,6 +167,11 @@ nav li {
     background-color: #FF900E;
 }
 
+.we-do-container {
+    width: 586px;
+    height: 171px;
+}
+
 .we-do-title {
     font-weight: 700;
     font-size: 45px;
@@ -172,15 +183,16 @@ nav li {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-top: 24px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .we-do {
-    padding: 30px 42px 30px 30px;
+    padding: 40px 42px 40px 40px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
+   margin-bottom: 30px;
 }
 
 .love-enjoy-title {
@@ -200,6 +212,7 @@ nav li {
 
 .some-facts {
     display: grid;
+    justify-content: center;
 }
 
 .facts-heading {
@@ -215,7 +228,6 @@ nav li {
     margin-bottom: 100px;
 }
 
-.facts-descripction {}
 
 .achivement-container {
     display: flex;
@@ -233,7 +245,10 @@ nav li {
     padding: 46px 37px 60px 37px;
 }
 
-.achivement-icon {}
+.achivement:hover {
+    border: 1px solid #000000;
+    background-color: lightblue;
+}
 
 .achivement-rating {
     font-weight: 600;
@@ -257,11 +272,6 @@ nav li {
     text-align: center;
 
 }
-
-.sponspors {}
-
-
-.sponspors-title {}
 
 .sponspors-header {
     font-weight: 700;
@@ -287,8 +297,8 @@ nav li {
 
 /* Footer Style */
 .footer {
-    margin-top: 170px;
-    margin-bottom: 200px;
+    margin: 170px 240px 200px;
+
 }
 
 .footer-description {
@@ -300,3 +310,5 @@ nav li {
     background-color: #FFF4E7;
     border-radius: 8px;
 }
+
+@media screen {}
